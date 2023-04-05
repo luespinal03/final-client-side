@@ -19,10 +19,10 @@ const Navbar = ({ email }) => {
     return (
 
         <div className='w-screen h-[80px] z-10 bg-zinc-200 fixed drop-shadow-lg'>
-            <div className='free-shipping-banner'>FREE 1-3 Day Shipping in Orders over $59</div>
+            <div className='free-shipping-banner'>FREE 1-3 Day Shipping in Orders over $139</div>
             <div className='px-2 flex justify-between items-center w-full h-full'>
                 <div className='flex items-center'>
-                    <a href="/" className='no-underline ml-2'><h1 className='text-3xl font-bold mr-4 sm:text-4xl mb-4'>GAMESHAK.</h1>
+                    <a href="/" className='no-underline ml-2'><h1 className='text-3xl font-bold mr-4 sm:text-4xl mb-4'>RUNSHAK.</h1>
                     </a>
                     <ul className='hidden md:flex mt-2'>
                         <li><Link to="/about" className='text-[20px]' >About</Link></li>

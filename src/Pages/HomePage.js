@@ -8,7 +8,7 @@ const HomePage = ({ message }) => {
     return (
         <div className='w-full'>
             <div className='main-blade-image mt-20'>
-                <img className='vw-100 blage-img ls-is-cached lazyloaded' src={images.HolidayBanner} alt='' />
+                <img className='vw-100 blage-img ls-is-cached lazyloaded' src={images.shoesPic} alt='' />
             </div>
 
             <h2 className='top-brands mt-10 mb-1'>Top Brands</h2>
@@ -19,55 +19,55 @@ const HomePage = ({ message }) => {
                         <div className="flex flex-wrap w-1/3">
                             <div className="w-full p-1 md:p-2">
                                 <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                    src={images.xboxImg} />
+                                    src={images.newBalance} />
                             </div>
                         </div>
                         <div className="flex flex-wrap w-1/3">
                             <div className="w-full p-1 md:p-2">
                                 <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                    src={images.playstationImg} />
+                                    src={images.hokaLogo} />
                             </div>
                         </div>
                         <div className="flex flex-wrap w-1/3">
                             <div className="w-full p-1 md:p-2">
                                 <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                    src={images.nintendoImg} />
+                                    src={images.brooksLogo} />
                             </div>
                         </div>
                         <div className="flex flex-wrap w-1/3">
                             <div className="w-full p-1 md:p-2">
                                 <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                    src={images.pokemonImg} />
+                                    src={images.salomonLogo} />
                             </div>
                         </div>
                         <div className="flex flex-wrap w-1/3">
                             <div className="w-full p-1 md:p-2">
                                 <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                    src={images.funkoImg} />
+                                    src={images.altraLogo} />
                             </div>
                         </div>
                         <div className="flex flex-wrap w-1/3">
                             <div className="w-full p-1 md:p-2">
                                 <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                    src={images.metaImg} />
+                                    src={images.asicsLogo} />
                             </div>
                         </div>
                         <div className="flex flex-wrap w-1/3">
                             <div className="w-full p-1 md:p-2">
                                 <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                    src={images.razerImg} />
+                                    src={images.adidasLogo} />
                             </div>
                         </div>
                         <div className="flex flex-wrap w-1/3">
                             <div className="w-full p-1 md:p-2">
                                 <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                    src={images.turtleBImg} />
+                                    src={images.babolatLogo2} />
                             </div>
                         </div>
                         <div className="flex flex-wrap w-1/3">
                             <div className="w-full p-1 md:p-2">
                                 <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                    src={images.amdImg} />
+                                    src={images.nikeLogo2} />
                             </div>
                         </div>
                     </div>
@@ -84,31 +84,31 @@ const HomePage = ({ message }) => {
                             <div className="flex flex-wrap w-1/3">
                                 <div className="w-full p-1 md:p-2">
                                     <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                        src={images.winterGames} />
+                                        src={images.newBalanceNR} />
                                 </div>
                             </div>
                             <div className="flex flex-wrap w-1/3">
                                 <div className="w-full p-1 md:p-2">
                                     <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                        src={images.justdance} />
+                                        src={images.hokaNewRelease} />
                                 </div>
                             </div>
                             <div className="flex flex-wrap w-1/3">
                                 <div className="w-full p-1 md:p-2">
                                     <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                        src={images.dragonQuest} />
+                                        src={images.brooksNR} />
+                                </div>
+                            </div>
+                            {/* <div className="flex flex-wrap w-1/3">
+                                <div className="w-full p-1 md:p-2">
+                                    <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
+                                        src={images.salomonNR} />
                                 </div>
                             </div>
                             <div className="flex flex-wrap w-1/3">
                                 <div className="w-full p-1 md:p-2">
                                     <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                        src={images.hogwarts} />
-                                </div>
-                            </div>
-                            <div className="flex flex-wrap w-1/3">
-                                <div className="w-full p-1 md:p-2">
-                                    <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                        src={images.finalFantasy} />
+                                        src={images.altraNR3} />
                                 </div>
                             </div>
                             <div className="flex flex-wrap w-1/3">
@@ -134,7 +134,7 @@ const HomePage = ({ message }) => {
                                     <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
                                         src={images.skullBones} />
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>

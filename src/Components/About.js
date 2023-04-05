@@ -9,7 +9,7 @@ import { FaGithub, FaTwitter, } from 'react-icons/fa'
 
 const myInfo = {
     name: 'Luis Espinal',
-    role: 'GAMESHAK creator',
+    role: 'RUNSHAK creator',
     image: images.profilepic,
     githubURL: 'https://github.com/luespinal03',
     twitterURL: 'https://twitter.com/Javanoob03',
@@ -36,12 +36,12 @@ const About = () => {
 
                     <div>
                         <p>Software Engineering student at Code Immersives. US Army Vet</p>
-                        <p>'I love video games, therefore building a copy of Gamestop for my final projet was a no brainer'</p>
+                        <p>'From my time in the military I've grown to enjoy running, a lot of people also enjoy it. Which is why I am here to facilitate with running footware.'</p>
                     </div>
                 </div>
 
                 <div className='flex flex-col max-w-[1240px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-gray-500'>
-                    <p className='py-4'>2022 GAMESHAK, LLC. All rights reserved</p>
+                    <p className='py-4'>2023 RUNSHAK, LLC. All rights reserved</p>
                     <div className='flex justify-between sm:w-[300px] pt-4 text-2xl'>
 
                         <a className='h-0 w-0 text-white hover:bg-gray' href={myInfo.linkedinURl}><AiFillLinkedin /></a>
