@@ -1,0 +1,44 @@
+.products-card {
+  background-color: white;
+  max-height: fit-content;
+  max-width: 60rem;
+  margin: 40px;
+  overflow: auto;
+}
+
+.product-card-title {
+  font-size: 30px;
+}
+/* button {
+  background: #00aaff;
+  height: 80px;
+  width: 460px;
+} */
+
+button:hover {
+  cursor: pointer;
+  background-color: #7b17c3;
+}
+
+/* .add-to-cart-button {
+} */
+
+.product-price {
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.product-features {
+  overflow: auto;
+}
+
+.product-img {
+  width: 350px;
+}
+
+.card-body {
+  background-color: white;
+  width: 50rem;
+  height: 50vh;
+}

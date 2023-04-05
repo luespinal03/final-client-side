@@ -1,4 +1,4 @@
-/** import amd from '../assets/amd.jpeg'
+import amd from '../assets/amd.jpeg'
 import xboxImg from '../assets/xbox.jpeg'
 import nintendoImg from '../assets/nintendo.jpeg'
 import playstationImg from '../assets/playstation.jpeg'
@@ -45,4 +45,4 @@ export default {
     skullBones,
     deathDoors,
     lor
-} **/
+}

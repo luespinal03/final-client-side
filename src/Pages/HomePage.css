@@ -1,0 +1,11 @@
+.brands {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.top-brands {
+  height: 3vh;
+  margin-bottom: -26px;
+}
