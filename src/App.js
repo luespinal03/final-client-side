@@ -36,7 +36,7 @@ function App() {
   const auth = useAuth();
 
 
-  // itemsList is wherre all the products enter the application from the databate
+  // itemsList is where all the products enter the application from the database
   // console.log(itemsList)
 
   useEffect(() => {

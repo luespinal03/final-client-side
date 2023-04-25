@@ -4,7 +4,7 @@ import './ProductsPage.css'
 
 
 const ProductsPage = ({ itemsList, itemToShoppingCartHandler, itemIntoWishListHandler }) => {
-    // console.log(itemsList)
+    console.log(itemsList)
     return (
         <div className='mt-20'>
             <h1 className='mt-10'>Products</h1>
